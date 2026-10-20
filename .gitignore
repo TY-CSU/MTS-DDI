@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.out
+*.err
+
+# Private/restricted data and derived caches (released separately)
+data/raw/
+data/processed/
+data/optional/
+external/
+
+# Generated training/evaluation products
+trained_models/*/fold_metrics.csv
+trained_models/*/training_history.csv
+trained_models/*/experiment_metadata.json
+trained_models/*/dataset_metadata.json
+results/generated/

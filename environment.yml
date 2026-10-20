@@ -1,0 +1,16 @@
+name: mts-ddi
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pyg
+  - rdkit
+  - pip

@@ -1,0 +1,6 @@
+# Install PyTorch, PyTorch Geometric and RDKit from environment.yml first.
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+tqdm==4.65.0
+signaturizer
